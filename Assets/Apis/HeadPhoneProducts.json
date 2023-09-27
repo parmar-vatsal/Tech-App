@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Sony WH-1000XM4",
+        "description": "Premium noise-canceling wireless headphones with industry-leading sound quality.",
+        "photoUrl": "Assets/img/product/headphone/Sony-WH-1000XM4.png",
+        "price": "₹24,999",
+        "color": "Black",
+        "rating": "4.8",
+        "reviews": 150,
+        "features": [
+            "Industry-leading Noise Cancellation",
+            "High-Resolution Audio",
+            "30-hour Battery Life"
+        ]
+    },
+    {
+        "name": "Bose QuietComfort 35 II",
+        "description": "Wireless headphones with renowned noise-canceling technology and balanced sound.",
+        "photoUrl": "Assets/img/product/headphone/Bose-QuietComfort-35-II.png",
+        "price": "₹21,499",
+        "color": "Silver",
+        "rating": "4.7",
+        "reviews": 120,
+        "features": [
+            "World-Class Noise Cancellation",
+            "Clear Voice Pickup",
+            "20-hour Battery Life"
+        ]
+    },
+    {
+        "name": "Sennheiser HD 660 S",
+        "description": "Open-back audiophile headphones with exceptional clarity and detail.",
+        "photoUrl": "Assets/img/product/headphone/Sennheiser-HD-660-S.png",
+        "price": "₹38,999",
+        "color": "Black",
+        "rating": "4.9",
+        "reviews": 180,
+        "features": [
+            "Highly Accurate Sound Reproduction",
+            "Detachable Cable",
+            "Ergonomic Design"
+        ]
+    },
+    {
+        "name": "Skullcandy Crusher ANC",
+        "description": "Wireless headphones with adjustable sensory bass and noise cancelation.",
+        "photoUrl": "Assets/img/product/headphone/Skullcandy-Crusher-ANC.png",
+        "price": "₹15,499",
+        "color": "Deep Red",
+        "rating": "4.5",
+        "reviews": 130,
+        "features": [
+            "Adjustable Sensory Bass",
+            "Personal Sound Experience",
+            "24-hour Battery Life"
+        ]
+    },
+    {
+        "name": "Beyerdynamic DT 990 Pro",
+        "description": "Open-back studio headphones known for their precise and natural sound reproduction.",
+        "photoUrl": "Assets/img/product/headphone/Beyerdynamic-DT-990-Pro.png",
+        "price": "₹18,999",
+        "color": "Black",
+        "rating": "4.7",
+        "reviews": 160,
+        "features": [
+            "Natural and Balanced Sound",
+            "Robust Construction",
+            "Comfortable Fit"
+        ]
+    },
+    {
+        "name": "Audio-Technica ATH-M50x",
+        "description": "Professional-grade monitor headphones with exceptional audio clarity.",
+        "photoUrl": "Assets/img/product/headphone/Audio-Technica-ATH-M50x.png",
+        "price": "₹12,499",
+        "color": "Black",
+        "rating": "4.8",
+        "reviews": 170,
+        "features": [
+            "Studio Monitor Sound",
+            "Collapsible Design",
+            "Detachable Cables"
+        ]
+    },
+    {
+        "name": "JBL Quantum 800",
+        "description": "Gaming headphones with QuantumSURROUND sound and active noise canceling.",
+        "photoUrl": "Assets/img/product/headphone/JBL-Quantum-800.png",
+        "price": "₹12,999",
+        "color": "Black",
+        "rating": "4.6",
+        "reviews": 110,
+        "features": [
+            "Gaming-Grade Audio",
+            "Active Noise Cancellation",
+            "DTS Headphone:X 2.0"
+        ]
+    },
+    {
+        "name": "Beats Solo Pro",
+        "description": "Wireless on-ear headphones with active noise cancelation and Apple's H1 chip.",
+        "photoUrl": "Assets/img/product/headphone/Beats-Solo-Pro.png",
+        "price": "₹22,999",
+        "color": "Ivory",
+        "rating": "4.6",
+        "reviews": 140,
+        "features": [
+            "Pure Adaptive Noise Cancelling",
+            "Up to 22 Hours of Battery Life",
+            "Hands-Free Siri Integration"
+        ]
+    },
+    {
+        "name": "Sennheiser Momentum 3",
+        "description": "Premium wireless headphones with refined aesthetics and exceptional sound quality.",
+        "photoUrl": "Assets/img/product/headphone/Sennheiser-Momentum-3-Wireless.png",
+        "price": "₹29,999",
+        "color": "Brown",
+        "rating": "4.8",
+        "reviews": 150,
+        "features": [
+            "Superior Sound with ANC",
+            "Genuine Leather Earpads",
+            "Smart Pause and Auto On/Off"
+        ]
+    },
+    {
+        "name": "Sony WF-1000XM4",
+        "description": "Wireless earbuds with industry-leading noise cancelation and Hi-Res Audio support.",
+        "photoUrl": "Assets/img/product/headphone/Sony-WF-1000XM4.png",
+        "price": "₹19,499",
+        "color": "Silver",
+        "rating": "4.9",
+        "reviews": 190,
+        "features": [
+            "True Wireless Freedom",
+            "Precise Voice Pickup",
+            "Speak-to-Chat Technology"
+        ]
+    }
+]

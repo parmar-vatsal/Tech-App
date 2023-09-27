@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Samsung French Door Refrigerator",
+        "description": "High-capacity refrigerator with advanced cooling technology.",
+        "photoUrl": "Assets/img/product/refrigerator/Samsung-French-Door.png",
+        "price": "₹34,999",
+        "color": "Stainless Steel",
+        "rating": "4.7",
+        "reviews": 150,
+        "features": [
+            "Twin Cooling Plus",
+            "FlexZone Drawer",
+            "Energy Efficient"
+        ]
+    },
+    {
+        "name": "LG Side-by-Side Refrigerator",
+        "description": "Spacious refrigerator with water and ice dispenser.",
+        "photoUrl": "Assets/img/product/refrigerator/LG-Side-by-Side.png",
+        "price": "₹29,499",
+        "color": "Black Stainless Steel",
+        "rating": "4.6",
+        "reviews": 120,
+        "features": [
+            "Ice and Water Dispenser",
+            "Smart Diagnosis",
+            "Door Cooling+"
+        ]
+    },
+    {
+        "name": "Whirlpool Top Freezer Refrigerator",
+        "description": "Affordable refrigerator with ample storage space.",
+        "photoUrl": "Assets/img/product/refrigerator/Whirlpool-Top-Freezer.png",
+        "price": "₹18,999",
+        "color": "White",
+        "rating": "4.5",
+        "reviews": 180,
+        "features": [
+            "Adjustable Shelves",
+            "Humidity-Controlled Crispers",
+            "Frost-Free"
+        ]
+    },
+    {
+        "name": "KitchenAid French Door Refrigerator",
+        "description": "Premium refrigerator with intuitive features.",
+        "photoUrl": "Assets/img/product/refrigerator/KitchenAid-French-Door.png",
+        "price": "₹39,999",
+        "color": "Black Stainless Steel",
+        "rating": "4.9",
+        "reviews": 130,
+        "features": [
+            "Produce Preserver",
+            "Temperature-Controlled Drawer",
+            "Interior Water Dispenser"
+        ]
+    },
+    {
+        "name": "GE Bottom Freezer Refrigerator",
+        "description": "Energy-efficient refrigerator with customizable storage.",
+        "photoUrl": "Assets/img/product/refrigerator/GE-Bottom-Freezer.png",
+        "price": "₹22,499",
+        "color": "Slate",
+        "rating": "4.7",
+        "reviews": 160,
+        "features": [
+            "Frost Guard Technology",
+            "LED Lighting",
+            "Door Alarm"
+        ]
+    },
+    {
+        "name": "Frigidaire Side-by-Side Refrigerator",
+        "description": "Spacious refrigerator with adjustable shelves.",
+        "photoUrl": "Assets/img/product/refrigerator/Frigidaire-Side-by-Side.png",
+        "price": "₹27,999",
+        "color": "Stainless Steel",
+        "rating": "4.8",
+        "reviews": 170,
+        "features": [
+            "PureSource Ultra II Filtration",
+            "Deli Drawer",
+            "Ready-Select Controls"
+        ]
+    },
+    {
+        "name": "Maytag French Door Refrigerator",
+        "description": "Durable refrigerator with fingerprint-resistant finish.",
+        "photoUrl": "Assets/img/product/refrigerator/Maytag-French-Door.png",
+        "price": "₹32,999",
+        "color": "Stainless Steel",
+        "rating": "4.6",
+        "reviews": 110,
+        "features": [
+            "PowerCold Feature",
+            "Wide-N-Fresh Deli Drawer",
+            "Gallon Door Bins"
+        ]
+    },
+    {
+        "name": "Haier Compact Refrigerator",
+        "description": "Compact refrigerator with adjustable thermostat.",
+        "photoUrl": "Assets/img/product/refrigerator/Haier-Compact.png",
+        "price": "₹14,999",
+        "color": "Black",
+        "rating": "4.4",
+        "reviews": 140,
+        "features": [
+            "Adjustable Glass Shelves",
+            "Reversible Door",
+            "Energy Star Certified"
+        ]
+    },
+    {
+        "name": "Bosch Counter-Depth Refrigerator",
+        "description": "Counter-depth refrigerator with sleek design.",
+        "photoUrl": "Assets/img/product/refrigerator/Bosch-Counter-Depth.png",
+        "price": "₹36,499",
+        "color": "Stainless Steel",
+        "rating": "4.9",
+        "reviews": 150,
+        "features": [
+            "MultiAirFlow Cooling",
+            "VitaFresh Pro",
+            "SuperFreezing"
+        ]
+    },
+    {
+        "name": "Electrolux French Door Refrigerator",
+        "description": "Luxury refrigerator with customizable temperature zones.",
+        "photoUrl": "Assets/img/product/refrigerator/Electrolux-French-Door.png",
+        "price": "₹42,999",
+        "color": "Stainless Steel",
+        "rating": "4.8",
+        "reviews": 190,
+        "features": [
+            "Perfect Temp Drawer",
+            "Luxury-Design Glass Shelving",
+            "IQ-Touch Controls"
+        ]
+    }
+]

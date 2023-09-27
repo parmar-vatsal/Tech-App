@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Linksys Velop Tri-Band Mesh WiFi System",
+        "description": "Mesh WiFi system for whole-home coverage with high-speed connectivity.",
+        "photoUrl": "Assets/img/product/router/Linksys-Velop.png",
+        "price": "₹21,999",
+        "brand": "Linksys",
+        "rating": "4.7",
+        "reviews": 150,
+        "features": [
+            "Tri-Band Technology",
+            "MU-MIMO Support",
+            "Easy Setup"
+        ]
+    },
+    {
+        "name": "Netgear Nighthawk AX12",
+        "description": "High-performance WiFi 6 router with 12-stream connectivity.",
+        "photoUrl": "Assets/img/product/router/Netgear-Nighthawk-AX12.png",
+        "price": "₹28,999",
+        "brand": "Netgear",
+        "rating": "4.8",
+        "reviews": 180,
+        "features": [
+            "WiFi 6 Technology",
+            "12-Stream WiFi",
+            "4 Gigabit Ethernet Ports"
+        ]
+    },
+    {
+        "name": "Asus ROG Rapture GT-AX11000",
+        "description": "Gaming router with ultra-fast WiFi 6 and customizable gaming features.",
+        "photoUrl": "Assets/img/product/router/Asus-ROG-Rapture-GT-AX11000.png",
+        "price": "₹34,999",
+        "brand": "Asus",
+        "rating": "4.9",
+        "reviews": 200,
+        "features": [
+            "Tri-Band WiFi 6",
+            "Gaming Dashboard",
+            "WTFast Game Accelerator"
+        ]
+    },
+    {
+        "name": "TP-Link Archer C4000",
+        "description": "High-performance tri-band WiFi router with advanced security features.",
+        "photoUrl": "Assets/img/product/router/TP-Link-Archer-C4000.png",
+        "price": "₹16,999",
+        "brand": "TP-Link",
+        "rating": "4.6",
+        "reviews": 120,
+        "features": [
+            "Tri-Band Technology",
+            "MU-MIMO Support",
+            "HomeCare Security"
+        ]
+    },
+    {
+        "name": "D-Link EXO AC2600",
+        "description": "Dual-band WiFi router with high-speed connectivity and SmartBeam technology.",
+        "photoUrl": "Assets/img/product/router/D-Link-EXO-AC2600.png",
+        "price": "₹11,499",
+        "brand": "D-Link",
+        "rating": "4.4",
+        "reviews": 90,
+        "features": [
+            "Dual-Band WiFi",
+            "4 High-Gain Antennas",
+            "SmartBeam Technology"
+        ]
+    },
+    {
+        "name": "Ubiquiti AmpliFi Alien",
+        "description": "Tri-Band WiFi 6 router with advanced network optimization features.",
+        "photoUrl": "Assets/img/product/router/Ubiquiti-AmpliFi-Alien.png",
+        "price": "₹26,999",
+        "brand": "Ubiquiti",
+        "rating": "4.7",
+        "reviews": 140,
+        "features": [
+            "Tri-Band WiFi 6",
+            "LCD Touchscreen Display",
+            "Alien Teleport VPN"
+        ]
+    },
+    {
+        "name": "Apple Airport Extreme",
+        "description": "Apple's high-speed dual-band router with easy setup and compatibility.",
+        "photoUrl": "Assets/img/product/router/Apple-Airport-Extreme.png",
+        "price": "₹13,999",
+        "brand": "Apple",
+        "rating": "4.3",
+        "reviews": 100,
+        "features": [
+            "Dual-Band WiFi",
+            "Easy Setup with iOS Devices",
+            "Guest Network"
+        ]
+    },
+    {
+        "name": "Synology RT2600ac",
+        "description": "Dual-band router with powerful performance and advanced management options.",
+        "photoUrl": "Assets/img/product/router/Synology-RT2600ac.png",
+        "price": "₹15,499",
+        "brand": "Synology",
+        "rating": "4.6",
+        "reviews": 110,
+        "features": [
+            "Dual-Band WiFi",
+            "MU-MIMO Support",
+            "SRM Management"
+        ]
+    },
+    {
+        "name": "Tenda Nova MW6",
+        "description": "Affordable mesh WiFi system for extended coverage and simple setup.",
+        "photoUrl": "Assets/img/product/router/Tenda-Nova-MW6.png",
+        "price": "₹7,999",
+        "brand": "Tenda",
+        "rating": "4.2",
+        "reviews": 80,
+        "features": [
+            "Mesh WiFi",
+            "Plug and Play",
+            "Parental Controls"
+        ]
+    },
+    {
+        "name": "Google Nest WiFi",
+        "description": "Mesh WiFi system for seamless coverage and easy home network management.",
+        "photoUrl": "Assets/img/product/router/Google-Nest-WiFi.png",
+        "price": "₹14,999",
+        "brand": "Google",
+        "rating": "4.5",
+        "reviews": 150,
+        "features": [
+            "Mesh WiFi",
+            "Google Assistant Built-in",
+            "Family Wi-Fi Pause"
+        ]
+    }
+]

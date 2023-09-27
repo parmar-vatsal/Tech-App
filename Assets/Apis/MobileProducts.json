@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Samsung Galaxy M32",
+    "description": "A high-performance smartphone with advanced features.",
+    "photoUrl": "Assets/img/product/mobile/Samsung-Galaxy-M32.png",
+    "price": "₹19,999",
+    "color": "Black",
+    "storage": "128GB",
+    "rating": "4.5",
+    "reviews": 120,
+    "features": [
+      "5G Connectivity",
+      "Quad-Camera System",
+      "Face Unlock"
+    ],
+    "specs": {
+      "display": "6.5-inch AMOLED",
+      "processor": "Octa-core Snapdragon 888",
+      "battery": "4000mAh",
+      "os": "Android 12"
+    }
+  },
+  {
+    "name": "Xiaomi Redmi Note 10",
+    "description": "Sleek and stylish smartphone with powerful performance.",
+    "photoUrl": "Assets/img/product/mobile/xiaomi-redmi-note-10.png",
+    "price": "₹14,999",
+    "color": "Silver",
+    "storage": "256GB",
+    "rating": "4.2",
+    "reviews": 95,
+    "features": [
+      "Dual SIM Support",
+      "Fast Charging",
+      "In-display Fingerprint"
+    ],
+    "specs": {
+      "display": "6.3-inch Super Retina XDR",
+      "processor": "A15 Bionic",
+      "battery": "3500mAh",
+      "os": "iOS 15"
+    }
+  },
+  {
+    "name": "OnePlus Nord CE",
+    "description": "A premium mid-range smartphone with stunning design.",
+    "photoUrl": "Assets/img/product/mobile/One-Plus-Nord-CE.png",
+    "price": "₹24,999",
+    "color": "Blue",
+    "storage": "128GB",
+    "rating": "4.7",
+    "reviews": 150,
+    "features": [
+      "5G Connectivity",
+      "Triple-Camera System",
+      "OxygenOS"
+    ],
+    "specs": {
+      "display": "6.43-inch Fluid AMOLED",
+      "processor": "Snapdragon 750G",
+      "battery": "4500mAh",
+      "os": "OxygenOS 11"
+    }
+  },
+  {
+    "name": "Realme 8 Pro",
+    "description": "A camera-centric smartphone with stunning display.",
+    "photoUrl": "Assets/img/product/mobile/Realme-8-Pro.png",
+    "price": "₹17,999",
+    "color": "Yellow",
+    "storage": "128GB",
+    "rating": "4.6",
+    "reviews": 110,
+    "features": [
+      "Super AMOLED Display",
+      "64MP Quad-Camera",
+      "Fast Charging"
+    ],
+    "specs": {
+      "display": "6.4-inch Super AMOLED",
+      "processor": "Snapdragon 720G",
+      "battery": "4500mAh",
+      "os": "Realme UI 2.0"
+    }
+  },
+  {
+    "name": "Oppo A17",
+    "description": "An affordable smartphone with a stylish design and decent performance.",
+    "photoUrl": "Assets/img/product/mobile/oppo-A17.png",
+    "price": "₹14,999",
+    "color": "Mystic Black",
+    "storage": "128GB",
+    "rating": "4.2",
+    "reviews": 85,
+    "features": [
+      "4G Connectivity",
+      "13MP Main Camera",
+      "Sleek Design"
+    ],
+    "specs": {
+      "display": "6.2-inch IPS LCD",
+      "processor": "Qualcomm Snapdragon 450",
+      "battery": "4000mAh",
+      "os": "ColorOS 7.1"
+    }
+  },
+  {
+    "name": "Oppo A15s",
+    "description": "An affordable smartphone with a sleek design and impressive camera features.",
+    "photoUrl": "Assets/img/product/mobile/oppo-A15s.png",
+    "price": "₹12,999",
+    "color": "Dynamic Black",
+    "storage": "64GB",
+    "rating": "4.0",
+    "reviews": 75,
+    "features": [
+      "4G Connectivity",
+      "13MP Triple Camera",
+      "Slim Design"
+    ],
+    "specs": {
+      "display": "6.52-inch IPS LCD",
+      "processor": "MediaTek Helio P35",
+      "battery": "4230mAh",
+      "os": "ColorOS 7.2"
+    }
+  },
+  {
+    "name": "Asus ROG Phone 5",
+    "description": "A gaming powerhouse with a high-refresh-rate display.",
+    "photoUrl": "Assets/img/product/mobile/Asus-ROG-phone-5.png",
+    "price": "₹49,999",
+    "color": "Phantom Black",
+    "storage": "256GB",
+    "rating": "4.9",
+    "reviews": 250,
+    "features": [
+      "144Hz AMOLED Display",
+      "Snapdragon 888",
+      "AirTrigger 5"
+    ],
+    "specs": {
+      "display": "6.78-inch AMOLED",
+      "processor": "Snapdragon 888",
+      "battery": "6000mAh",
+      "os": "ROG UI 5"
+    }
+  },
+  {
+    "name": "iPhone 14",
+    "description": "The latest flagship smartphone from Apple with cutting-edge features and performance.",
+    "photoUrl": "Assets/img/product/mobile/iPhone.png",
+    "price": "₹84,999",
+    "color": "Space Gray",
+    "storage": "128GB",
+    "rating": "4.8",
+    "reviews": 150,
+    "features": [
+      "5G Connectivity",
+      "Pro Camera System",
+      "Super Retina XDR Display"
+    ],
+    "specs": {
+      "display": "6.1-inch Super Retina XDR OLED",
+      "processor": "Apple A16 Bionic",
+      "battery": "3200mAh",
+      "os": "iOS 16"
+    }
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "description": "The latest flagship smartphone from Samsung, featuring cutting-edge technology and innovative design.",
+    "photoUrl": "Assets/img/product/mobile/Galaxy-S23.png",
+    "price": "₹99,999",
+    "color": "Phantom Black",
+    "storage": "256GB",
+    "rating": "4.7",
+    "reviews": 120,
+    "features": [
+      "5G Connectivity",
+      "Quad-Camera System",
+      "Dynamic AMOLED 2X Display"
+    ],
+    "specs": {
+      "display": "6.5-inch Dynamic AMOLED 2X",
+      "processor": "Exynos 9000",
+      "battery": "4500mAh",
+      "os": "One UI 5.0 (Based on Android 13)"
+    }
+  },
+  {
+    "name": "Google Pixel 5a Plus",
+    "description": "A mid-range smartphone from Google known for its clean Android experience and excellent camera capabilities.",
+    "photoUrl": "Assets/img/product/mobile/Google-Pixel-A7.png",
+    "price": "₹34,999",
+    "color": "Just Black",
+    "storage": "128GB",
+    "rating": "4.5",
+    "reviews": 90,
+    "features": [
+      "4G Connectivity",
+      "Dual-Camera System",
+      "Stock Android Experience"
+    ],
+    "specs": {
+      "display": "6.2-inch OLED",
+      "processor": "Qualcomm Snapdragon 765G",
+      "battery": "4000mAh",
+      "os": "Android 12"
+    }
+  }
+]

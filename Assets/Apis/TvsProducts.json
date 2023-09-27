@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Samsung 55-inch QLED 4K Smart TV",
+        "description": "55-inch QLED TV with 4K resolution and smart features.",
+        "photoUrl": "Assets/img/product/tv/Samsung-55-inch-QLED-4K.png",
+        "price": "₹69,999",
+        "brand": "Samsung",
+        "rating": "4.7",
+        "reviews": 350,
+        "features": [
+            "4K QLED Display",
+            "Smart Hub with Voice Control",
+            "Quantum HDR"
+        ]
+    },
+    {
+        "name": "LG 65-inch OLED 4K Smart TV",
+        "description": "65-inch OLED TV with 4K resolution and AI ThinQ technology.",
+        "photoUrl": "Assets/img/product/tv/LG-65-inch-OLED-4K.png",
+        "price": "₹89,999",
+        "brand": "LG",
+        "rating": "4.8",
+        "reviews": 280,
+        "features": [
+            "4K OLED Display",
+            "AI ThinQ",
+            "Dolby Vision IQ"
+        ]
+    },
+    {
+        "name": "Sony 50-inch LED 4K Android TV",
+        "description": "50-inch LED TV with 4K resolution and Android TV platform.",
+        "photoUrl": "Assets/img/product/tv/Sony-50-inch-LED-4K.png",
+        "price": "₹49,999",
+        "brand": "Sony",
+        "rating": "4.6",
+        "reviews": 220,
+        "features": [
+            "4K LED Display",
+            "Android TV",
+            "Dolby Atmos"
+        ]
+    },
+    {
+        "name": "TCL 43-inch QLED 4K Smart TV",
+        "description": "43-inch QLED TV with 4K resolution and built-in streaming apps.",
+        "photoUrl": "Assets/img/product/tv/TCL-43-inch-QLED-4K.png",
+        "price": "₹37,999",
+        "brand": "TCL",
+        "rating": "4.5",
+        "reviews": 180,
+        "features": [
+            "4K QLED Display",
+            "Built-in Roku TV",
+            "Dolby Vision"
+        ]
+    },
+    {
+        "name": "Panasonic 55-inch LED 4K Smart TV",
+        "description": "55-inch LED TV with 4K resolution and My Home Screen platform.",
+        "photoUrl": "Assets/img/product/tv/Panasonic-55-inch-LED-4K.png",
+        "price": "₹59,999",
+        "brand": "Panasonic",
+        "rating": "4.4",
+        "reviews": 200,
+        "features": [
+            "4K LED Display",
+            "My Home Screen",
+            "HDR10+ Support"
+        ]
+    },
+    {
+        "name": "Hisense 50-inch ULED 4K Smart TV",
+        "description": "50-inch ULED TV with 4K resolution and Vidaa U platform.",
+        "photoUrl": "Assets/img/product/tv/Hisense-50-inch-ULED-4K.png",
+        "price": "₹42,999",
+        "brand": "Hisense",
+        "rating": "4.3",
+        "reviews": 160,
+        "features": [
+            "4K ULED Display",
+            "Vidaa U",
+            "Dolby Atmos"
+        ]
+    },
+    {
+        "name": "Xiaomi 55-inch Mi TV 4X",
+        "description": "55-inch LED TV with 4K resolution and PatchWall 4.0.",
+        "photoUrl": "Assets/img/product/tv/Xiaomi-55-inch-Mi-TV-4X.png",
+        "price": "₹39,999",
+        "brand": "Xiaomi",
+        "rating": "4.6",
+        "reviews": 210,
+        "features": [
+            "4K LED Display",
+            "PatchWall 4.0",
+            "Dolby Audio"
+        ]
+    },
+    {
+        "name": "Sony 65-inch Bravia XR OLED 4K TV",
+        "description": "65-inch Bravia XR OLED TV with 4K resolution and Cognitive Processor XR.",
+        "photoUrl": "Assets/img/product/tv/Sony-65-inch-Bravia-XR-OLED-4K.png",
+        "price": "₹1,19,999",
+        "brand": "Sony",
+        "rating": "4.9",
+        "reviews": 290,
+        "features": [
+            "4K OLED Display",
+            "Cognitive Processor XR",
+            "Acoustic Surface Audio"
+        ]
+    },
+    {
+        "name": "LG 43-inch 4K UHD Smart TV",
+        "description": "43-inch UHD TV with 4K resolution and webOS platform.",
+        "photoUrl": "Assets/img/product/tv/LG-43-inch-4K-UHD.png",
+        "price": "₹34,999",
+        "brand": "LG",
+        "rating": "4.4",
+        "reviews": 170,
+        "features": [
+            "4K UHD Display",
+            "webOS Smart TV",
+            "HDR10 Pro"
+        ]
+    },
+    {
+        "name": "Samsung 32-inch HD Smart TV",
+        "description": "32-inch HD TV with smart features and Clean View technology.",
+        "photoUrl": "Assets/img/product/tv/Samsung-32-inch-HD-Smart.png",
+        "price": "₹18,999",
+        "brand": "Samsung",
+        "rating": "4.2",
+        "reviews": 150,
+        "features": [
+            "HD Display",
+            "Smart TV",
+            "Clean View Technology"
+        ]
+    }
+]

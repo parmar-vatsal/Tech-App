@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Bose SoundLink Revolve+",
+        "description": "Portable Bluetooth speaker with 360-degree sound and long battery life.",
+        "photoUrl": "Assets/img/product/speaker/Bose-SoundLink-Revolve+.png",
+        "price": "₹19,999",
+        "brand": "Bose",
+        "rating": "4.7",
+        "reviews": 350,
+        "features": [
+            "360-Degree Sound",
+            "Water-Resistant",
+            "Up to 16 Hours of Battery Life"
+        ]
+    },
+    {
+        "name": "Amazon Echo (4th Gen)",
+        "description": "Smart speaker with Alexa and improved sound quality.",
+        "photoUrl": "Assets/img/product/speaker/Amazon-Echo-4th-Gen.png",
+        "price": "₹9,999",
+        "brand": "Amazon",
+        "rating": "4.4",
+        "reviews": 160,
+        "features": [
+            "Alexa Voice Control",
+            "Dolby Processing",
+            "Smart Home Integration"
+        ]
+    },
+    {
+        "name": "JBL Charge 4",
+        "description": "Wireless portable speaker with powerful bass and built-in power bank.",
+        "photoUrl": "Assets/img/product/speaker/JBL-Charge-4.png",
+        "price": "₹11,999",
+        "brand": "JBL",
+        "rating": "4.6",
+        "reviews": 280,
+        "features": [
+            "JBL Bass Radiator",
+            "20-Hour Battery Life",
+            "USB Charging Port"
+        ]
+    },
+    {
+        "name": "Sonos One",
+        "description": "Smart speaker with built-in voice assistant and rich, room-filling sound.",
+        "photoUrl": "Assets/img/product/speaker/Sonos-One.png",
+        "price": "₹16,499",
+        "brand": "Sonos",
+        "rating": "4.8",
+        "reviews": 220,
+        "features": [
+            "Voice Control with Alexa",
+            "Multi-Room Audio",
+            "Apple AirPlay 2"
+        ]
+    },
+    {
+        "name": "Sony SRS-XB43",
+        "description": "Extra bass portable wireless speaker with party lights and durable design.",
+        "photoUrl": "Assets/img/product/speaker/Sony-SRS-XB43.png",
+        "price": "₹15,499",
+        "brand": "Sony",
+        "rating": "4.6",
+        "reviews": 200,
+        "features": [
+            "Extra Bass",
+            "IP67 Waterproof",
+            "24-Hour Battery Life"
+        ]
+    },
+    {
+        "name": "UE Megaboom 3",
+        "description": "Portable Bluetooth speaker with deep bass and rugged, waterproof build.",
+        "photoUrl": "Assets/img/product/speaker/UE-Megaboom-3.png",
+        "price": "₹14,999",
+        "brand": "UE",
+        "rating": "4.5",
+        "reviews": 180,
+        "features": [
+            "Deep Bass",
+            "Waterproof and Floatable",
+            "15-Hour Battery Life"
+        ]
+    },
+    {
+        "name": "Harman Kardon Onyx Studio 6",
+        "description": "Portable Bluetooth speaker with premium design and rich sound.",
+        "photoUrl": "Assets/img/product/speaker/Harman-Kardon-Onyx-Studio-6.png",
+        "price": "₹21,999",
+        "brand": "Harman Kardon",
+        "rating": "4.7",
+        "reviews": 190,
+        "features": [
+            "Wireless Dual Sound",
+            "8-Hour Playtime",
+            "Built-in Handle"
+        ]
+    },
+    {
+        "name": "Bowers & Wilkins Formation Wedge",
+        "description": "Wireless speaker with unique wedge design and high-fidelity sound.",
+        "photoUrl": "Assets/img/product/speaker/Bowers-Wilkins-Formation-Wedge.png",
+        "price": "₹39,999",
+        "brand": "Bowers & Wilkins",
+        "rating": "4.9",
+        "reviews": 220,
+        "features": [
+            "High-Fidelity Sound",
+            "Formation Wireless Technology",
+            "Room-Filling Sound"
+        ]
+    },
+    {
+        "name": "Marshall Kilburn II",
+        "description": "Vintage-style portable Bluetooth speaker with guitar-inspired carry strap.",
+        "photoUrl": "Assets/img/product/speaker/Marshall-Kilburn-II.png",
+        "price": "₹24,999",
+        "brand": "Marshall",
+        "rating": "4.8",
+        "reviews": 210,
+        "features": [
+            "Classic Marshall Design",
+            "20-Hour Battery Life",
+            "Quick Charging"
+        ]
+    },
+    {
+        "name": "Anker SoundCore",
+        "description": "Affordable portable Bluetooth speaker with powerful sound and waterproof build.",
+        "photoUrl": "Assets/img/product/speaker/Anker-SoundCore-2.png",
+        "price": "₹4,999",
+        "brand": "Anker",
+        "rating": "4.2",
+        "reviews": 120,
+        "features": [
+            "High-Fidelity Sound",
+            "IPX7 Waterproof",
+            "24-Hour Playtime"
+        ]
+    }
+]

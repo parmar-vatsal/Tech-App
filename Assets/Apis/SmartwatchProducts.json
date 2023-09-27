@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Apple Watch Series 7",
+        "description": "The latest Apple smartwatch with a larger and more durable display.",
+        "photoUrl": "Assets/img/product/smartwatch/Apple-Watch-Series-7.png",
+        "price": "₹42,999",
+        "brand": "Apple",
+        "rating": "4.8",
+        "reviews": 250,
+        "features": [
+            "Always-On Retina Display",
+            "ECG and Blood Oxygen Monitoring",
+            "Water Resistance"
+        ]
+    },
+    {
+        "name": "Samsung Galaxy Watch 4",
+        "description": "Samsung's feature-packed smartwatch with advanced health tracking.",
+        "photoUrl": "Assets/img/product/smartwatch/Samsung-Galaxy-Watch-4.png",
+        "price": "₹18,999",
+        "brand": "Samsung",
+        "rating": "4.7",
+        "reviews": 200,
+        "features": [
+            "Google Wear OS",
+            "Body Composition Analysis",
+            "Sleep Tracking"
+        ]
+    },
+    {
+        "name": "Fitbit Sense",
+        "description": "Fitbit's premium smartwatch with stress management and GPS tracking.",
+        "photoUrl": "Assets/img/product/smartwatch/Fitbit-Sense.png",
+        "price": "₹20,499",
+        "brand": "Fitbit",
+        "rating": "4.6",
+        "reviews": 180,
+        "features": [
+            "Stress Tracking",
+            "Built-in GPS",
+            "Heart Rate Monitoring"
+        ]
+    },
+    {
+        "name": "Forerunner 945",
+        "description": "High-performance GPS smartwatch designed for athletes and fitness enthusiasts.",
+        "photoUrl": "Assets/img/product/smartwatch/Garmin-Forerunner-945.png",
+        "price": "₹44,999",
+        "brand": "Garmin",
+        "rating": "4.9",
+        "reviews": 220,
+        "features": [
+            "Advanced Running Dynamics",
+            "Music Storage",
+            "VO2 Max Estimation"
+        ]
+    },
+    {
+        "name": "Amazfit GTS 3",
+        "description": "Affordable smartwatch with AMOLED display and long battery life.",
+        "photoUrl": "Assets/img/product/smartwatch/Amazfit-GTS-3.png",
+        "price": "₹9,999",
+        "brand": "Amazfit",
+        "rating": "4.4",
+        "reviews": 150,
+        "features": [
+            "AMOLED Display",
+            "BioTracker 4 PPG",
+            "14-Day Battery Life"
+        ]
+    },
+    {
+        "name": "Fossil Gen 6",
+        "description": "Stylish smartwatch with Wear OS by Google and customizable dials.",
+        "photoUrl": "Assets/img/product/smartwatch/Fossil-Gen-6.png",
+        "price": "₹17,499",
+        "brand": "Fossil",
+        "rating": "4.5",
+        "reviews": 170,
+        "features": [
+            "Customizable Dials",
+            "Built-in Speaker",
+            "Heart Rate Tracking"
+        ]
+    },
+    {
+        "name": "Huawei Watch GT",
+        "description": "Huawei's premium smartwatch with a sleek design and long battery life.",
+        "photoUrl": "Assets/img/product/smartwatch/Huawei-Watch-GT-3.png",
+        "price": "₹24,999",
+        "brand": "Huawei",
+        "rating": "4.7",
+        "reviews": 140,
+        "features": [
+            "Sleek AMOLED Display",
+            "Two-Week Battery Life",
+            "SpO2 Monitoring"
+        ]
+    },
+    {
+        "name": "OnePlus Watch",
+        "description": "OnePlus' affordable smartwatch with fast charging and multiple workout modes.",
+        "photoUrl": "Assets/img/product/smartwatch/OnePlus-Watch.png",
+        "price": "₹9,999",
+        "brand": "OnePlus",
+        "rating": "4.3",
+        "reviews": 120,
+        "features": [
+            "Fast Charging",
+            "Multiple Workout Modes",
+            "Heart Rate Tracking"
+        ]
+    },
+    {
+        "name": "Xiaomi Mi Watch Revolve",
+        "description": "Xiaomi's feature-rich smartwatch with AMOLED display and long battery life.",
+        "photoUrl": "Assets/img/product/smartwatch/Xiaomi-Mi-Watch-Revolve.png",
+        "price": "₹10,999",
+        "brand": "Xiaomi",
+        "rating": "4.5",
+        "reviews": 160,
+        "features": [
+            "AMOLED Display",
+            "VO2 Max Monitoring",
+            "14-Day Battery Life"
+        ]
+    },
+    {
+        "name": "Realme Watch 2 Pro",
+        "description": "Affordable smartwatch with large display and multiple sports modes.",
+        "photoUrl": "Assets/img/product/smartwatch/Realme-Watch-2-Pro.png",
+        "price": "₹4,999",
+        "brand": "Realme",
+        "rating": "4.2",
+        "reviews": 90,
+        "features": [
+            "Large TFT Display",
+            "Multiple Sports Modes",
+            "Heart Rate Monitoring"
+        ]
+    }
+]
