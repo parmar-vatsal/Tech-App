@@ -8,9 +8,34 @@ class MyHeaderDrawer extends StatefulWidget {
 }
 
 class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
-  var user_name = FirebaseAuth.instance.currentUser?.displayName;
-  var user_email = FirebaseAuth.instance.currentUser?.email;
-  var user_img = FirebaseAuth.instance.currentUser?.photoURL;
+  String? user_name;
+  String? user_email;
+  String? user_img;
+
+  @override
+  void initState() {
+    super.initState();
+    getUserInfo();
+  }
+
+  Future<void> getUserInfo() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      // Retrieve the user's display name from Firestore
+      final userData = await FirebaseFirestore.instance
+          .collection('users')
+          .doc(user.uid)
+          .get();
+      final displayName = userData.data()?['name'] ?? user.displayName;
+
+      setState(() {
+        user_name = displayName ?? "User Name";
+        user_email = user.email ?? "user@example.com";
+        user_img = user.photoURL ??
+            "https://example.com/default-profile-image.png";
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,12 +53,12 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               image: DecorationImage(
-                image: NetworkImage("$user_img"),
+                image: NetworkImage(user_img ?? ""),
               ),
             ),
           ),
           Text(
-            "$user_name",
+            user_name ?? "User Name",
             style: const TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
                 fontSize: 20,
@@ -43,7 +68,7 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
             height: 4,
           ),
           Text(
-            "$user_email",
+            user_email ?? "user@example.com",
             style: const TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
                 fontSize: 14,
