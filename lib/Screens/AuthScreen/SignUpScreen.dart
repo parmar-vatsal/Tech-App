@@ -47,11 +47,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
       overlayBackgroundColor: Colors.white,
       circularProgressColor: Colors.transparent,
       child: Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
         body: SingleChildScrollView(
           child: Container(
             width: double.infinity,
-            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
@@ -147,8 +147,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       const SizedBox(height: 13),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Color.fromRGBO(39, 222, 191, 1),
-                          padding: EdgeInsets.symmetric(
+                          backgroundColor:
+                              const Color.fromRGBO(39, 222, 191, 1),
+                          padding: const EdgeInsets.symmetric(
                               vertical: 12), // Button padding
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
@@ -204,7 +205,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => LoginScreen(),
+                                  builder: (context) => const LoginScreen(),
                                 ),
                               );
                             },
