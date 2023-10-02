@@ -26,13 +26,15 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
           .collection('users')
           .doc(user.uid)
           .get();
+      print(userData.data()); // Add this line for debugging
+
       final displayName = userData.data()?['name'] ?? user.displayName;
 
       setState(() {
         user_name = displayName ?? "User Name";
         user_email = user.email ?? "user@example.com";
         user_img = user.photoURL ??
-            "https://example.com/default-profile-image.png";
+            "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1696224219~exp=1696224819~hmac=1033d8a96aad3f0c60bfda7c5f7df1f6afcbcf75ac6e10b1b0a367a0a2a7da6d";
       });
     }
   }
