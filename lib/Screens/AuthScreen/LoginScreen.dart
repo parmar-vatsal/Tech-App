@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:login/Screens/AuthScreen/ForgetPasswordScreen%20.dart';
+import 'package:login/Screens/AuthScreen/SetPasswordScreen.dart';
 import 'package:login/service/firebase/Auth/FBSignUp.dart';
 import 'package:overlay_loader_with_app_icon/overlay_loader_with_app_icon.dart'; // Import the overlay_loader_with_app_icon package
 import 'package:login/Screens/AuthScreen/SignUpScreen.dart';
@@ -130,16 +132,40 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                         ),
-                        TextButton(
-                          child: const Text("Forgot password?",
-                              style: TextStyle(
-                                  color: Color.fromRGBO(0, 0, 0, 1),
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.w100,
-                                  fontFamily: 'Poppins-Medium')),
-                          onPressed: () {
-                            print("Password Forget");
-                          },
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            TextButton(
+                              child: const Text("Set password?",
+                                  style: TextStyle(
+                                      color: Color.fromRGBO(0, 0, 0, 1),
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w100,
+                                      fontFamily: 'Poppins-Medium')),
+                              onPressed: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            ForgetPasswordScreen()));
+                              },
+                            ),
+                            TextButton(
+                              child: const Text("Forgot password?",
+                                  style: TextStyle(
+                                      color: Color.fromRGBO(0, 0, 0, 1),
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w100,
+                                      fontFamily: 'Poppins-Medium')),
+                              onPressed: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            SetPasswordScreen()));
+                              },
+                            ),
+                          ],
                         ),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
