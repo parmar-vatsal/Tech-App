@@ -35,7 +35,7 @@ Are you ready to embark on your Flutter journey with Tech App? Start exploring, 
 
 Let's create something incredible together! 💡📱
 
-[![Stay Connect]](https://portfolio.vatsalguru.com/)
+[[Stay Connect]](https://portfolio.vatsalguru.com/)
 
 ---
 
