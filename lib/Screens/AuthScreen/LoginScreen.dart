@@ -57,7 +57,7 @@ class _LoginScreenState extends State<LoginScreen> {
         body: OverlayLoaderWithAppIcon(
           isLoading: isLoading,
           appIcon: Image.asset('Assets/img/Hourglass_loader.gif'),
-          appIconSize: 80,
+          appIconSize: 90,
           overlayBackgroundColor: Colors.white,
           circularProgressColor: Colors.transparent,
           child: SingleChildScrollView(
