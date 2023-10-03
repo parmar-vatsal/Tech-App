@@ -19,6 +19,7 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   final formKey = GlobalKey<FormState>();
+  bool _obscureText = true;
   bool isLoading = false; // Add this variable
 
   signInWithGoogle() async {
@@ -118,8 +119,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         const SizedBox(height: 8),
                         TextFormField(
-                          controller: passController,
-                          obscureText: true,
+                          obscureText: _obscureText,
                           decoration: InputDecoration(
                             hintText: "Password",
                             fillColor:
@@ -127,6 +127,21 @@ class _LoginScreenState extends State<LoginScreen> {
                             filled: true,
                             prefixIcon: const Icon(Icons.password,
                                 color: Color.fromRGBO(38, 50, 56, 1)),
+                            suffixIcon: GestureDetector(
+                              onTap: () {
+                                setState(() {
+                                  _obscureText =
+                                      !_obscureText; // Toggle password visibility
+                                });
+                              },
+                              child: Icon(
+                                _obscureText
+                                    ? Icons.visibility
+                                    : Icons.visibility_off,
+                                color: Colors
+                                    .grey, // You can adjust the color as needed
+                              ),
+                            ),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                             ),

@@ -17,6 +17,11 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   RegExp pass_valid = RegExp(r"(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)");
   bool isLoading = false;
+  bool _obscureText = true;
+  TextEditingController emailTxtField = TextEditingController();
+  TextEditingController passTxtField = TextEditingController();
+  TextEditingController nameController = TextEditingController();
+  final formKey = GlobalKey<FormState>();
 
   bool validatePassword(String pass) {
     String password = pass.trim();
@@ -30,11 +35,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController emailTxtField = TextEditingController();
-    TextEditingController passTxtField = TextEditingController();
-    TextEditingController nameController = TextEditingController();
-    final formKey = GlobalKey<FormState>();
-
     if (UserAuthUtils.passWord != "" && UserAuthUtils.userEmail != "") {
       emailTxtField.text = UserAuthUtils.userEmail;
       passTxtField.text = UserAuthUtils.passWord;
@@ -48,17 +48,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
       circularProgressColor: Colors.transparent,
       child: Scaffold(
         backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-        appBar: AppBar(
-          elevation: 0,
-        ),
         body: SingleChildScrollView(
           child: Container(
             width: double.infinity,
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Image.asset("Assets/img/Vector-img.jpg", width: 300),
+                Image.asset(
+                  "Assets/img/Vector-img.jpg",
+                  width: 300,
+                ),
                 const SizedBox(height: 10),
                 const Text(
                   "Signup Now",
