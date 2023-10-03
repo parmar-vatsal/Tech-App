@@ -130,8 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             suffixIcon: GestureDetector(
                               onTap: () {
                                 setState(() {
-                                  _obscureText =
-                                      !_obscureText; // Toggle password visibility
+                                  _obscureText = !_obscureText;
                                 });
                               },
                               child: Icon(

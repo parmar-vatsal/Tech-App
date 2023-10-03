@@ -127,7 +127,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                       const SizedBox(height: 10),
                       TextFormField(
-                        obscureText: true,
+                        obscureText: _obscureText,
                         controller: passTxtField,
                         decoration: InputDecoration(
                           hintText: "Password",
@@ -135,6 +135,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           filled: true,
                           prefixIcon: const Icon(Icons.password,
                               color: Color.fromRGBO(38, 50, 56, 1)),
+                          suffixIcon: GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                _obscureText = !_obscureText;
+                              });
+                            },
+                            child: Icon(
+                              _obscureText
+                                  ? Icons.visibility
+                                  : Icons.visibility_off,
+                              color: Colors
+                                  .grey, // You can adjust the color as needed
+                            ),
+                          ),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
