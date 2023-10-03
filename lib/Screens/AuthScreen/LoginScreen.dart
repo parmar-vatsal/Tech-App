@@ -118,6 +118,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         const SizedBox(height: 8),
                         TextFormField(
+                          controller: passController,
                           obscureText: _obscureText,
                           decoration: InputDecoration(
                             hintText: "Password",
@@ -176,12 +177,11 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                           onPressed: () async {
-                            setState(() {
-                              isLoading = true;
-                            });
-
                             try {
                               if (formKey.currentState!.validate()) {
+                                setState(() {
+                                  isLoading = true;
+                                });
                                 if (emailController.text.isEmpty ||
                                     passController.text.isEmpty) {
                                   ScaffoldMessenger.of(context).showSnackBar(

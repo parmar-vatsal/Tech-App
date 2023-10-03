@@ -21,21 +21,41 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
   Future<void> getUserInfo() async {
     final user = FirebaseAuth.instance.currentUser;
     if (user != null) {
-      // Retrieve the user's display name from Firestore
-      final userData = await FirebaseFirestore.instance
-          .collection('users')
-          .doc(user.uid)
-          .get();
-      print(userData.data()); // Add this line for debugging
+      // Retrieve the user's email
+      final userEmail = user.email ?? "user@example.com";
 
-      final displayName = userData.data()?['name'] ?? user.displayName;
+      // Fetch the user's name from Firestore based on the email
+      final userName = await getNameForCurrentUser(userEmail);
 
       setState(() {
-        user_name = displayName ?? "User Name";
-        user_email = user.email ?? "user@example.com";
+        user_name = userName ?? "User Name";
+        user_email = userEmail;
         user_img = user.photoURL ??
             "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1696224219~exp=1696224819~hmac=1033d8a96aad3f0c60bfda7c5f7df1f6afcbcf75ac6e10b1b0a367a0a2a7da6d";
-      });
+      }); 
+    }
+  }
+
+  Future<String?> getNameForCurrentUser(String email) async {
+    try {
+      final QuerySnapshot<Map<String, dynamic>> querySnapshot =
+          await FirebaseFirestore.instance
+              .collection("users")
+              .where("email", isEqualTo: email)
+              .get();
+
+      if (querySnapshot.docs.isNotEmpty) {
+        final userData = querySnapshot.docs.first.data();
+        final String? name = userData["name"];
+        return name;
+      } else {
+        // User with the given email not found
+        return null;
+      }
+    } catch (e) {
+      // Handle any errors that may occur during the query
+      print("Error getting user data: $e");
+      return null;
     }
   }
 
