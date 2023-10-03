@@ -48,6 +48,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
       circularProgressColor: Colors.transparent,
       child: Scaffold(
         backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+        appBar: AppBar(
+          elevation: 0,
+        ),
         body: SingleChildScrollView(
           child: Container(
             width: double.infinity,

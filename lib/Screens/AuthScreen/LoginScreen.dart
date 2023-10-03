@@ -147,7 +147,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            ForgetPasswordScreen()));
+                                            SetPasswordScreen()));
                               },
                             ),
                             TextButton(
@@ -162,7 +162,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            SetPasswordScreen()));
+                                            ForgetPasswordScreen()));
                               },
                             ),
                           ],
