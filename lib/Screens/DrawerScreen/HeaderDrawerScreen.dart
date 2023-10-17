@@ -25,14 +25,15 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
       final userEmail = user.email ?? "user@example.com";
 
       // Fetch the user's name from Firestore based on the email
-      final userName = await getNameForCurrentUser(userEmail);
+      final userName =
+          await getNameForCurrentUser(userEmail) ?? user.displayName;
 
       setState(() {
         user_name = userName ?? "User Name";
         user_email = userEmail;
         user_img = user.photoURL ??
             "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1696224219~exp=1696224819~hmac=1033d8a96aad3f0c60bfda7c5f7df1f6afcbcf75ac6e10b1b0a367a0a2a7da6d";
-      }); 
+      });
     }
   }
 
@@ -80,7 +81,7 @@ class _MyHeaderDrawerState extends State<MyHeaderDrawer> {
             ),
           ),
           Text(
-            user_name ?? "User Name",
+            user_name ?? "",
             style: const TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
                 fontSize: 20,

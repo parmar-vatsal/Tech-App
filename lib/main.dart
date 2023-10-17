@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:login/Screens/AboutUs.dart';
 import 'package:login/Screens/AuthScreen/LoginScreen.dart';
 import 'package:login/Screens/DrawerScreen/DrawerScreen.dart';
+import 'package:login/SplashScreen.dart';
 
 import 'service/firebase/Auth/firebase_options.dart';
 
@@ -34,7 +35,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       routes: {
         '/home': (context) => HomePageScreen(),
-        '/aboutus':(context) => AboutUs()
+        '/aboutus': (context) => AboutUs()
       },
       home: StreamBuilder<User?>(
           stream: FirebaseAuth.instance.authStateChanges(),
@@ -47,7 +48,7 @@ class _MyAppState extends State<MyApp> {
               if (snapshot.data == null) {
                 return const LoginScreen();
               } else {
-                return const HomePageScreen();
+                return SplashScreen();
               }
             }
             return CircularProgressIndicator();
